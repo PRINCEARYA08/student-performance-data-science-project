@@ -52,7 +52,40 @@ The Week 1 deliverable is a detailed project planning document covering the proj
 
 ```text
 student-performance-data-science-project/
+student-performance-data-science-project/
+│
 ├── README.md
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── 01_data_collection.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_eda_visualization.ipynb
+│   ├── 04_feature_engineering.ipynb
+│   └── 05_model_training.ipynb
+│
+├── src/
+│   ├── data_cleaning.py
+│   ├── eda.py
+│   ├── feature_engineering.py
+│   └── model.py
+│
+├── models/
+│   └── best_model.pkl
+│
+├── app/
+│   └── app.py
+│
+├── visualizations/
+│
 ├── reports/
-├── diagrams/
-└── notebooks/
+│   ├── Week_1_Report.docx
+│   ├── Week_2_Report.docx
+│   └── Final_Report.pdf
+│
+├── requirements.txt
+│
+└── README.md
